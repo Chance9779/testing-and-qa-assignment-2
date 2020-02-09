@@ -1,5 +1,3 @@
-from myTests import *
-
 
 """
 Requirements 
