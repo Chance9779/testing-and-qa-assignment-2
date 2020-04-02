@@ -174,9 +174,9 @@ def performBMItests():
 #this will calculate your BMI
 def calculateBMI(feet, inches, pounds):
     #multiply the weight in pounds by 0.45
-    a = pounds * 0.45
+    a = pounds * 0.50
     #multiply the height in inches by 0.025
-    b = inches * 0.025
+    b = inches * 0.25
     #square the result from step 2
     c = b * b
     #divide the answer from step 1 by the answer from step 3
@@ -195,7 +195,7 @@ def calculateBMI(feet, inches, pounds):
 
 def calculateRetirement(age, salary, goal, savingsPercentage):
     #calculate percentage
-    a = savingsPercentage / 100
+    a = savingsPercentage / 300
     savings = a * salary
     #calculate 35% of that
     employerSavings = savings * 0.35
