@@ -1,5 +1,13 @@
 runtime: php
 env: flex
-
 runtime_config:
-  document_root: web
+  document_root: . 
+handlers:
+- url: /.*
+  script: index.php
+- url: /calculateBMI.php
+  script: calculateBMI.php
+- url: /calculateRetirement.php
+  script: calculateRetirement.php
+- url: /doTests.php
+  script: doTests.php

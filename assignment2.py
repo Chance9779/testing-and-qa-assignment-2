@@ -195,7 +195,7 @@ def calculateBMI(feet, inches, pounds):
 
 def calculateRetirement(age, salary, goal, savingsPercentage):
     #calculate percentage
-    a = savingsPercentage / 300
+    a = savingsPercentage / 100
     savings = a * salary
     #calculate 35% of that
     employerSavings = savings * 0.35
